@@ -1,0 +1,48 @@
+body{
+    background-image: url("../CSSAdvanced/Object.png")  ;
+    background-repeat: no-repeat;
+    background-size: 100% 30%;
+
+
+}
+/*header  {
+
+    margin: 0;
+   
+    padding-top: 41.54px;
+    padding-left: 226.77px;
+    width: 1103.41px;
+  
+  background-color: rgb(87, 91, 91);
+
+}
+*/
+ul {
+    display: flex;
+    /*padding-left: 800px;*/
+    word-spacing: 5px;
+    
+    list-style: none;
+   
+    
+}
+li a{
+    text-decoration: none;
+    word-spacing: 3px;
+}
+
+
+.logo{
+    padding-left: 10.59px;
+}
+//////////////////////////////////////////////////////////////////////////
+
+#info {
+    text-align: center;
+}
+#pros_element{
+    align-items: center;
+}
+
+   
+
