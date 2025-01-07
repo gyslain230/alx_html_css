@@ -51,7 +51,7 @@ Welcome to the Headphone Project! This project aims to develop a pair of high-qu
 - **Answer Calls:** Tap the multifunction button to answer incoming calls.
 
 ## Support
-For support, please contact us at [gis;ainrugira@example.com](mailto:gislainrugria@example.com).
+For support, please contact us at [gislainrugira@example.com](mailto:gislainrugria@example.com).
 
 ## Contributing
 We welcome contributions! Please fork the repository and submit a pull request with your changes. Ensure that your code follows our coding standards.
