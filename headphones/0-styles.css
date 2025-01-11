@@ -19,14 +19,21 @@ body, html {
     height: 100%;
     width: 100%;
  }
+ header li {
+	display: inline;
+	vertical-align:middle;
+    
+}
 #main_2{
     background-color: aliceblue;
    width: 100%;
 }
 #main_3{
-    background-image: url(../headphones/image/headphones_hero_2.jpg);
+    background-image: url(../headphones/image/headphones_hero_2.jpg) ;
     background-size: cover;
     background-repeat: no-repeat;
+    width: auto;
+    height: 650px;
     
 
 
@@ -70,6 +77,8 @@ body, html {
     position: absolute;
     bottom: 1px;
     right: 75%;
+    top: 50px;
+
    
    
    
@@ -78,17 +87,20 @@ body, html {
     position: absolute;
     bottom: 1px;
     right: 55%;
+    top: 50px;
    
 }
 #nbr{
     font-size: 40px;
     font-family: "headphones", sans-serif;
+    line-height: 0.3;
 
 }
 #penttext3 {
     position: absolute;
     bottom: 1px;
     right: 35%;
+    top: 50px;
    
    
 }
@@ -96,16 +108,26 @@ body, html {
     position: absolute;
     bottom: 1px;
     right: 15%;
+    top: 50px;
    
    
+}
+footer{
+    background-color: #071629;
+    width: auto;
+    height: 249px;
+    background-attachment: fixed;
 }
 
 
 
-header li {
-	display: inline;
-	vertical-align:middle;
-    
-}
+
+/*.pentagon {
+    width: 100px;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 87px solid #3498db; 
+}*/
 
 
