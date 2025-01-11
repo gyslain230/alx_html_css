@@ -1,0 +1,152 @@
+@font-face {
+    font-family: "headphones";
+    src: url("../headphones/fonts/source-sans-pro/SourceSansPro-Regular.otf") format("woff2"),
+         url("../headphones/fonts/source-sans-pro/SourceSansPro-It.otf") format("woff");
+    /* Add other font properties if needed */
+  }
+  
+*{
+    margin: 0;
+}
+
+
+body, html {
+   
+    background-image: url(../headphones/image/headphones_hero_1.jpg);
+    padding: 0;
+    margin-top: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+ }
+ header li {
+	display: inline;
+	vertical-align:middle;
+    
+}
+#main_2{
+    background-color: aliceblue;
+   width: 100%;
+}
+.main2_middle{
+    text-align: center;
+    padding-top: 50px;
+    font-family: "headphones", sans-serif;
+    
+ }
+ .container{
+     display: flex;
+     margin-top: 80px;
+     text-align: center;
+     margin-inline: 200px;
+   
+ 
+ }
+ .values{
+     width: 50%;
+ }
+ .values > svg{
+     fill:  rgb(242, 71, 71);
+     size: 100%;
+ }
+#main_3{
+    background-image: url(../headphones/image/headphones_hero_2.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 650px;
+    color: white;
+    
+
+
+}
+#main_4{
+    background-color: aliceblue;
+   width: 100%;
+}
+.form_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pent_container {
+    position: relative;
+    text-align: center;
+    color: white;
+    display: flex;
+    
+    
+}
+.pent{
+   padding-right: 0px;
+   padding-left: 230px;
+   margin-inline: 0px;
+
+
+    
+}
+#pent2{
+    padding-left: 133px;
+}
+#pent3{
+    padding-left: 139px;
+}
+#pent4{
+    padding-left: 133px;
+}
+
+#penttext1 {
+    position: absolute;
+    bottom: 1px;
+    right: 75%;
+    top: 75px;
+    line-height: 50px;
+   
+   
+   
+}
+#penttext2 {
+    position: absolute;
+    bottom: 1px;
+    right: 55%;
+    top: 75px;
+    line-height: 50px;
+}
+#nbr{
+    font-size: 40px;
+    font-family: "headphones", sans-serif;
+    line-height: 0.3;
+
+}
+#penttext3 {
+    position: absolute;
+    bottom: 1px;
+    right: 35%;
+    top: 75px;
+    line-height: 50px;
+   
+}
+#penttext4 {
+    position: absolute;
+    bottom: 1px;
+    right: 15%;
+    top: 75px;
+    line-height: 50px;
+   
+   
+}
+
+
+
+
+/*.pentagon {
+    width: 100px;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 87px solid #3498db; 
+}*/
+
+

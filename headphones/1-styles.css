@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "headphones";
+    src: url("../headphones/fonts/source-sans-pro/SourceSansPro-Regular.otf") format("woff2"),
+         url("../headphones/fonts/source-sans-pro/SourceSansPro-It.otf") format("woff");
+    /* Add other font properties if needed */
+  }
+  
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.main0{
+   
+    background-image: url(../headphones/image/headphones_hero_1.jpg);
+    padding: 0;
+    margin-top: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    font-family: "headphones", sans-serif;
+
+ }
+ header li {
+	display: inline;
+	vertical-align:middle;
+    
+}
+#main_2{
+    background-color: aliceblue;
+   width: 100%;
+}
+.main2_middle{
+   text-align: center;
+   padding-top: 50px;
+   font-family: "headphones", sans-serif;
+   
+}
+.container{
+    display: flex;
+    margin-top: 80px;
+    text-align: center;
+    margin-inline: 200px;
+  
+
+}
+.values{
+    width: 50%;
+}
+.values > svg{
+    fill:  rgb(242, 71, 71);
+    size: 100%;
+}
+
+
+/*.pentagon {
+    width: 100px;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 87px solid #3498db; 
+}*/
+
+
