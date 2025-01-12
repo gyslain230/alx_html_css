@@ -4,11 +4,14 @@
          url("../headphones/fonts/source-sans-pro/SourceSansPro-It.otf") format("woff");
     /* Add other font properties if needed */
   }
+  *{
+    margin: 0;
+  }
   
 
 
 
-body, html {
+  .main0 {
    
     background-image: url(../headphones/image/headphones_hero_1.jpg);
     padding: 0;
